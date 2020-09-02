@@ -3,6 +3,7 @@ import Typed from 'react-typed'
 // import { Link } from 'react-router-dom'
 // import Particles from 'react-particles-js'
 import Particles from 'react-tsparticles'
+// Hiii Mom!
 
 
 class Home extends React.Component {
