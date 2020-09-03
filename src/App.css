@@ -414,3 +414,35 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+/* .hey {
+  max-width: 70vw !important;
+  width: 40vw;
+  height: 60vh;
+  background-color: yellow;
+} */
+
+.nigga {
+  background-color: red;
+  /* height: 60vh; */
+  /* max-width: none !important; */
+  /* width: 40vw; */
+  margin: auto;
+}
+
+.jeff {
+  /* background-color: red; */
+  /* height: 10vh; */
+  /* width: 90vw; */
+  /* max-width: none !important; */
+}
+
+.screenshot {
+  /* height: 60% !important; */
+  /* border: 1px solid red; */
+  padding: 0px !important;
+}
+
+.screenshots {
+  width: 100%
+}

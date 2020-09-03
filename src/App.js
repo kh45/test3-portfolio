@@ -5,6 +5,7 @@ import './App.css';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 // import Button from 'react-bootstrap/button'
 import Projects from './projects'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './home'
 import Navbar from './Navbar'
 import About from './about'
