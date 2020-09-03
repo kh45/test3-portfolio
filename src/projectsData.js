@@ -2,22 +2,38 @@ export const projectsList = {
     sportsscraper: {
         title: "SportsScraper",
         description: "This is my sports project",
-        img1: "./assets/SportsScraper.png"
+        img1: "./assets/SportsScraper.png",
+        buttons: {
+            name: 'GitHub',
+            image: './assets/logos/github.svg'
+        }
     },
     pokemonTCG: {
         title: "PokemonTCG",
         description: "This is my sports project",
-        img1: "./assets/pokemon.png"
+        img1: "./assets/pokemon.png",
+        buttons: {
+            name: 'GitHub',
+            image: './assets/logos/github.svg'
+        }
     },
     nightlife2: {
         title: "Nightlife",
         description: "This is my sports project",
-        img1: "./assets/nightlife.png"
+        img1: "./assets/nightlife.png",
+        buttons: {
+            name: 'YouTube',
+            image: './assets/logos/youtube.svg'
+        }
     },
     uefaGame: {
         title: "UEFA CHAMPIONS MEMORY",
         description: "This is my sports project",
-        img1: "./assets/uefa.png"
+        img1: "./assets/uefa.png",
+        buttons: {
+            name: 'GitHub',
+            image: './assets/logos/github.svg'
+        }
     }
 }
 

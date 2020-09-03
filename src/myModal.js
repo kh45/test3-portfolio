@@ -14,6 +14,13 @@ class MyModal extends React.Component {
         </Carousel.Item>)
     }
 
+    createButtons = (project) => {
+        return (<div>
+                <img src={require(`${project.buttons.image}`)} />
+                <p>{project.buttons.name}</p>
+            </div>)
+    }
+
     render() {
         return(
             <Modal show={this.props.showModal} size="lg" onHide={this.props.handleHideParent} dialogClassName="hey">
@@ -50,7 +57,7 @@ class MyModal extends React.Component {
                         <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
                     </div>
                 </Modal.Body>
-                <Modal.Footer>Close</Modal.Footer>
+                <Modal.Footer><div>{this.createButtons(this.props.project)}</div></Modal.Footer>
             </Modal>
         )
     }

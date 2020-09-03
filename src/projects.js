@@ -10,9 +10,7 @@ class Projects extends React.Component {
         super()
         this.state = {
             showModal: false,
-            selectedProject: {
-                img1: './assets/SportsScraper.png'
-            }
+            selectedProject: projectsList.sportsscraper
         }
     }
 

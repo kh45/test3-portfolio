@@ -448,6 +448,6 @@
 }
 
 .custom-modal-body {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 0px !important;
 }
